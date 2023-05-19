@@ -10,18 +10,17 @@ body {
     place-items: center;
 }
 main{
-    max-width: 375px;
+    max-width: 100%;
 }
 .container{
     background: hsl(233, 47%, 7%);
-    padding: 4em 1em;
+    padding: 4rem 1rem 2rem;
 }
 .image-container {
     height: 15rem;
     background-image: url('images/image-header-mobile.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     position: relative;
 }
 .image-container::before {
@@ -70,10 +69,12 @@ h1{
     font-family: 'Lexend Deca', sans-serif;
 }
 .attribution{ 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; text-align: center;
+    color: #fff; 
+    padding-top: 2rem;
 }
 .attribution a{ 
-    color: hsl(228, 45%, 44%); 
+    color: hsla(0, 0%, 100%, 0.6); 
 }
 
 @media screen and (min-width: 768px) {
@@ -88,6 +89,7 @@ h1{
         height: 25rem;
         flex-basis: 50%;
         background-image: url('images/image-header-desktop.jpg');
+        background-position: center;
     }
     .text-container {
         flex-basis: 50%;
@@ -103,5 +105,8 @@ h1{
     }
     .stats{
         margin: 0;
+    }
+    .attribution{
+        display: none;
     }
 }
