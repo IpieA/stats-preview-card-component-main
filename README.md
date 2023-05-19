@@ -22,13 +22,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/statspreviewcomponentcard.png)
+![](./images/statspreviewcardcomponent.jpg)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/IpieA/stats-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://thestatspreviewcard.netlify.app/)
+- Solution URL: [https://github.com/IpieA/stats-preview-card-component-main]
+- Live Site URL: [https://thestatspreviewcard.netlify.app/]
 
 ## My process
 
